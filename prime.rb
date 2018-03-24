@@ -11,4 +11,4 @@ def prime?(integer)
 binding.pry
 end
 
-prime?(-3)
+prime?(-10)
