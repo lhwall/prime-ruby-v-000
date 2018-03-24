@@ -22,7 +22,5 @@ def prime?(integer)
 end
 end
 return prime
-binding.pry
 end
 
-prime?(-10)
