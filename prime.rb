@@ -7,7 +7,7 @@ def prime?(integer)
     new_number = -1 * integer
   else new_number = 0
   end
-  full_array = [2..new_number - 1]
+  full_array = (2..new_number - 1).to_a
 binding.pry
 end
 
