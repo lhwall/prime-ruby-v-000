@@ -5,7 +5,9 @@ def prime?(integer)
     new_number = integer * -1
   elsif integer > 1
    new_number = integer
-  else new_number = 3
+  elsif integer == 2 || integer == -2 
+   new_number = 3
+  else new_number = 4
 end
   is_prime = true
   primes_array = [2..new_number - 1]
