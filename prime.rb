@@ -10,3 +10,5 @@ def prime?(integer)
   full_array = [2..new_number - 1]
 binding.pry
 end
+
+prime?(-3)
