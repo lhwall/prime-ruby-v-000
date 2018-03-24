@@ -14,6 +14,7 @@ def prime?(integer)
       is_prime = true
   end
 end
+end
 is_prime
 end
 
